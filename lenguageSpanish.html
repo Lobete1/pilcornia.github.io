@@ -10,6 +10,8 @@
     <link rel="shortcut icon" href="PILCORnia.ico">
 </head>
 <body>
+    <script type="text/javascript">alert('Si quieres saber más información puedes pinchar en las imágenes')</script>
+
     <img src="https://i.ibb.co/jgnqTJY/PILCORnia.png"
     title="PilcorniaCorp">
 
@@ -18,15 +20,57 @@
     <img src="https://cdn.shopify.com/s/files/1/0551/3720/6455/products/pildoraroja_fc31ffdd-f9da-4655-9060-0717ec5949d3_1024x1024.png?v=1623876774"
     width="100"
     height="90"
-    title="Esta pildora curara todas tus enfermedades">
+    title="Esta es la píldora llamada SCP-500 curará todas tus enfermedades"
+    onclick="
+        alert('Con Una píldora tomada oralmente del SCP-500, curará todas las enfermedades del sujeto en un plazo de dos horas, donde el tiempo exacto dependerá de la gravedad y la cantidad de enfermedades que posea el sujeto.');
+    let question = prompt('¿Quieres mas informacion?');
+    if(question == 'si') {
+        alert('Bueno, esta píldora fue descubierta en 1989, pero estaba en una instalación secreta de la fundación Secure Contain Protect y esto fue legal para vender en este año 2022 y habiendo seguido este SCP tan pronto como pudimos compramos los derechos de autor y ahora podemos venderlo.')
+        alert('¿Qué estás comiendo? La píldora no tiene componentes normales, pero nuestros investigadores determinaron que muchos de los elementos de la píldora se asemejan a los elementos que tenemos aquí como:')
+        alert('Células madre multipotentes, gammaglobulina, eritropoyetina recombinante, complejo vitamínico, vitamina A, vitamina E, vitamina D, vitamina K, complejo B, potasio, magnesio, calcio, zing, ácido ascórbico, extracto de moringa, extracto de noni, ginseng y gingobiloba, y nutrientes esenciales.')
+        question = prompt('¿Quieres saber cómo creamos las píldoras?')
+        if(question == 'yes') {
+            alert('Bueno para empezar usamos otro objeto anómalo llamado SCP-38 El árbol del todo, esto es porque las píldoras son limitadas pero con este árbol puedes tener píldoras ilimitadas siempre y cuando no haya accidentes y hasta ahora no ha habido accidentes.')
+            question = prompt('¿Quieres saber si el estar embarazada tiene alguna desventaja?')
+            if(question == 'yes') {
+                alert('El estar embarazada o tener alguna alergia no te afecta en nada')
+            }
+            else if(question == 'no') {
+                alert('ok')
+            }
+        }
 
-    <FORM id="frmButton" action="compra.html" target="_blank">
-        <INPUT type="submit" value="Comprar"><h2 class="palabras">$50</h2>
+    }
+    if(question == 'no') {
+        alert('ok léalo cuando quiera o nunca')
+    }">
+    <FORM id="frmButton" action="compra.html">
+        <INPUT type="submit" value="Comprar"><h2 class="palabras">20,500 MXN</h2>
     </FORM>
 
-    <h3 class="palabras">Una píldora tomada oralmente, curará todas las enfermedades del sujeto en un plazo de dos horas, donde el tiempo exacto dependerá de la gravedad y la cantidad de enfermedades que posea el sujeto.</h3>
+    <img src="Scp-500chiki.png"
+    width="100"
+    height="90"
+    title="Esta es una version de la pildora mas diluida y menos efectiva pero mas barata"
+    onclick="
+    alert('Una píldora del SCP-500-1, cuando se toma por vía oral puede curarte de la anemia, y al igual que la otra te cura en 2 horas y eso está determinado por la gravedad de la enfermedad.')
+    let questionC = prompt('¿Quieres más información?')
+    if(questionC == 'si') {
+        alert('bueno esta pastilla es un invento de nosotros usando otro SCP, llamado SCP-914 o la maquinaria con una función que encontramos que es diluir y con eso pudimos hacer esta pastilla y con el arbol del todo o SCP-38.')
+        alert('las otras cosas como los componentes son los mismos pero no son tan potentes, al igual que no afecta nada si estas embarazada o tienes alergias.')
+    }
+    else if(questionC == 'no') {
+        alert('ok')
+    }">
+    <form id="frmButton" action="compra2.html">
+        <input type="submit" value="Buy"><h2 class="palabras">2000 MXN</h2>
+    </form>
 
-    <a href="index.html" target="_blank">In english</a>
+    <a class="palabras">Dato: esto te da una inmunidad temporal a las enfermedades y además te puedes seguir enfermando</a>
+
+    <br>
+
+    <a href="index.html" class="palabras">In english</a>
 </body>
 </body>
 </html>
