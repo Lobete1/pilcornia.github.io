@@ -10,6 +10,7 @@
     <link rel="shortcut icon" href="PILCORnia.ico">
 </head>
 <body>
+    <script type="text/javascript">alert('If you want to know more information you can click in the images')</script>
     <img src="PILCORniaEn.png"
     title="PilcorniaCorp">
 
@@ -18,14 +19,59 @@
     <img src="https://cdn.shopify.com/s/files/1/0551/3720/6455/products/pildoraroja_fc31ffdd-f9da-4655-9060-0717ec5949d3_1024x1024.png?v=1623876774"
     width="100"
     height="90"
-    title="This is the pill what will heal all you diseases">
-
-    <FORM id="frmButton" action="compra.html" target="_blank">
-        <INPUT type="submit" value="Buy"><h2 class="palabras">$50</h2>
+    title="This is the pill called SCP-500 will heal all you diseases"
+    onclick="
+    alert('One pill of the SCP-500, when taken orally, effectively cures the subject of all diseases within two hours, exact time depending on the severity and amount of the subjects conditions.');
+    let question = prompt('Do you want more information?');
+    if(question == 'yes') {
+        alert('Well, this pill was discovered in 1989, but it was in a secret facility of the Secure Contain Protect foundation and this was legal to sell in this year 2022 and having followed this SCP as soon as we could we bought the copyright and now we can sell it.')
+        alert('What are you eating? The pill has no normal components, but our researchers determined that many of the elements of the pill resemble the elements we have here such as:')
+        alert('Multipotent stem cells, Gamma globulin, Recombinant erythropoietin, Vitamin complex, Vitamin A, Vitamin E, Vitamin D, Vitamin K, B complex, Potassium, magnesium, calcium, zing, Ascorbic acid, Moringa extract, Noni extract, Ginseng and gingobiloba, And essential nutrients.')
+        question = prompt('Do you wanna now how we create the pills?')
+        if(question == 'yes') {
+            alert('Well for starters we use another anomalous object called SCP-38 The Tree of Everything, this is because the pills are limited but with this tree you can have unlimited pills as long as there are no accidents and so far there have been no accidents.')
+            question = prompt('Do you want to know if there are any disadvantages to being pregnant?')
+            if(question == 'yes') {
+                alert('Being pregnant or having any allergies does not affect you in any way.')
+            }
+            else if(question == 'no') {
+                alert('ok')
+            }
+        }
+        else if(question == 'no') {
+            alert('ok')
+        }
+    }
+    else if(question == 'no') {
+        alert('ok read it anytime or never')
+    }
+    ">
+    <FORM id="frmButton" action="compra1.html">
+        <INPUT type="submit" value="Buy"><h2 class="palabras">1000 USD</h2>
     </FORM>
 
-    <h3 class="palabras">One pill, when taken orally, effectively cures the subject of all diseases within two hours, exact time depending on the severity and amount of the subject's conditions.</h3>
+    <img src="Scp-500chiki.png"
+    width="100"
+    height="90"
+    title="This is a more diluted and less effective but cheaper version."
+    onclick="
+    alert('One pill of the SCP-500-1, when taken orally it can cure you of anemia, and just like the other it cures you within 2 hours and that is determined by the severity of the disease.')
+    let questionC = prompt('Do you want more information?')
+    if(questionC == 'yes') {
+        alert('well this pill is an invention of us using another SCP, called SCP-914 or the machinery with a function that we found that is to dilute and with that we could make this pill and with the arbol del todo or SCP-38.')
+        alert('the other things like the components are the same but not as potent, just as it doesnt affect anything if you are pregnant or have allergies.')
+    }
+    else if(questionC == 'no') {
+        alert('ok')
+    }">
+    <form id="frmButton" action="compra2.html">
+        <input type="submit" value="Buy"><h2 class="palabras">100 USD</h2>
+    </form>
 
-    <a href="lenguageSpanish.html" target="_blank">En espanol</a>
+    <a class="palabras">Fact: this gives you a temporary immunity to disease and you can still get sick.</a>
+
+    <br>
+
+    <a href="lenguageSpanish.html" class="palabras">En espanol</a>
 </body>
 </html>
